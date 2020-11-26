@@ -1,0 +1,26 @@
+.about-section{
+    padding-top: 130px;
+    padding-bottom: 130px;
+    margin-bottom: 60px;
+}
+.about-section h1{
+    font-family: 'Kaushan Script', cursive;
+    padding-bottom: 70px;
+}
+.about-body{
+    height: 300px;
+}
+.about-left img{
+    border: 5px solid gray;
+    box-shadow: 0px 0px 20px gray;
+}
+.about-right h2 span{
+    color: tomato;
+}
+.about-right button{
+    background-color: tomato;
+}
+.get-it img{
+    width: 150px;
+    height: 60px;
+}

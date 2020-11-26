@@ -1,0 +1,17 @@
+.navbar .navbar-brand img{
+    width: 180px;
+    height: 35px;
+}
+.navbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    background-attachment: fixed;
+}
+.navbar .navbar-brand{
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+a.nav-link.text-white {
+    font-size: 20px;
+}

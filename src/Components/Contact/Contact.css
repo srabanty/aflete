@@ -1,0 +1,19 @@
+.contact-section{
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background-color: tomato;
+    z-index: -1;
+}
+.contact-section h1{
+    font-family: 'Kaushan Script', cursive;
+    padding-bottom: 70px;
+}
+.form{
+    padding: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    box-shadow: 0px 0px 10px lightpink;
+}
+.form input{
+    
+}

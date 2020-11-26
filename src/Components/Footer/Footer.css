@@ -1,0 +1,12 @@
+.footer-section{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.footer-section h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 40px;
+}
+.footer-section img{
+    width: 160px;
+    height: 60px;
+}
