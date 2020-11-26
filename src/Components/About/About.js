@@ -21,8 +21,8 @@ const About = () => {
                         <br/>
                         <br/>
                         <div className="row get-it d-flex">
-                            <img src={apple} alt=""/>
-                            <img src={android} alt=""/>
+                            <img className="apple" src={apple} alt=""/>
+                            <img className="android" src={android} alt=""/>
                         </div>
                     </div>
                 </div>

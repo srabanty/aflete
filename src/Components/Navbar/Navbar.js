@@ -5,7 +5,7 @@ import whiteImg from '../../siteImages/white.png';
 const Navbar = () => {
     return (
         <div>
-            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-dark">
                 <div className="container">
                     <a class="navbar-brand text-white font-weight-bold" href="#"><img src={whiteImg} alt="" /></a>
                     <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

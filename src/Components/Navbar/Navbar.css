@@ -6,7 +6,9 @@
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: black;
-    background-attachment: fixed;
+    z-index: 999;
+    width: 100%;
+    top: 0;
 }
 .navbar .navbar-brand{
     font-size: 32px;

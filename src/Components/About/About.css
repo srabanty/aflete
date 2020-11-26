@@ -22,5 +22,9 @@
 }
 .get-it img{
     width: 150px;
-    height: 60px;
+    height: 70px;
+}
+img.apple {
+    height: 58px;
+    padding-top: 11px;
 }

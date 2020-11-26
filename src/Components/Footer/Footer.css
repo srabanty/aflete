@@ -7,6 +7,10 @@
     padding-bottom: 40px;
 }
 .footer-section img{
-    width: 160px;
-    height: 60px;
+    width: 150px;
+    height: 70px;
+}
+img.apple {
+    height: 58px;
+    padding-top: 11px;
 }

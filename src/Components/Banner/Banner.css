@@ -1,0 +1,70 @@
+.banner-section{
+    background-image: url('../../siteImages/banner2.jpg');
+    width: auto;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner-section::before{
+    position: absolute;
+    content: "";
+    background-color: black;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+}
+.banner-body{
+    position: relative;
+    top: 220px;
+    
+}
+.banner-body h1 {
+    font-family: 'Lobster', cursive;
+    font-family: 'Kaushan Script', cursive;
+    letter-spacing: 2px;
+    color: tomato;
+}
+.banner-body h2{
+    z-index: 999;
+    font-family: 'Kaushan Script', cursive;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+.banner-body h2 span{
+    position: relative;
+    z-index: 999;
+    animation: textanimation 4s ease-in-out;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: left;
+    animation-iteration-count: infinite;
+    letter-spacing: 2px;
+    color: tomato;
+    font-weight: bold;
+}
+@keyframes textanimation{
+    0%{
+        letter-spacing: 20px;
+    }
+
+    100%{
+        letter-spacing: 1px;
+    }
+    200%{
+        letter-spacing: 20px;
+    }
+}
+.btn-contact{
+    border: 2px solid tomato;
+    font-size: 22px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.btn-contact:hover{
+    background-color: tomato;
+    transition: .3s;
+}
